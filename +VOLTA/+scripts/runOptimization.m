@@ -6,7 +6,7 @@
 % Affiliation    : EEMS Group, University of California, San Diego
 % Email          : snitundil@ucsd.edu
 % MATLAB Version : R2024a
-% License        : GNU General Public License v3 (GPLv3)
+% License        : Apache License 2.0
 % ------------------------------------------------------------------------
 % Description:
 % This script initializes all parameters using the validationSet and gaSet 

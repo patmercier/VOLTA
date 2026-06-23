@@ -77,7 +77,7 @@ function adcObj = evaluateAdcModel(designVars, modelParams, spec)
 % Author         : Sumukh Nitundil
 % Affiliation    : EEMS Group, University of California San Diego
 % MATLAB Version : R2024a
-% License        : GNU General Public License v3 (GPLv3)
+% License        : Apache License 2.0
 % -------------------------------------------------------------------------
 
 %% Dispatch to variant model if requested

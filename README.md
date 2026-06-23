@@ -14,21 +14,25 @@ This work provides an open-source VCO-ADC model framework and design methodology
 - Well-documented, modular library that acts as a framework amenable to customization for specific designs
 
 ## Repository Structure
-VOLTA-Lib is a MATLAB Package with the following structure
+
+VOLTA-Lib is a MATLAB package with the following structure:
+
+```
 VOLTA-Lib/
 ├── README.md
 ├── LICENSE
 └── +VOLTA/                       % Top-Level MATLAB package
     ├── outputs/                  % Genetic algorithm output data
-    ├── +visualization/           % Plotting and visualization functions
-    ├── +utilities/               % General-purpose helper functions
-    ├── +scripts/                 % Visualization, validation and optimization execution wrapper scripts
-    │   └── +configs/             % Parameter and variable configuration sets
-    ├── +optimization/            % Optimization functions
-    └── +model/                   % Core ADC modeling framework
-        ├── evaluateAdcModel.m    % Model evaluation entry point
-        ├── Adc.m                 % ADC system class definition
-        └── +variants/            % Variant model implementations
+    ├── +visualization/          % Plotting and visualization functions
+    ├── +utilities/              % General-purpose helper functions
+    ├── +scripts/                % Visualization, validation and optimization execution wrapper scripts
+    │   └── +configs/            % Parameter and variable configuration sets
+    ├── +optimization/           % Optimization functions
+    └── +model/                  % Core ADC modeling framework
+        ├── evaluateAdcModel.m   % Model evaluation entry point
+        ├── Adc.m                % ADC system class definition
+        └── +variants/           % Variant model implementations
+```
 
 ## Package Hierarchy
 The repository uses MATLAB package folders (prefixed with +) to define a hierarchical namespace.

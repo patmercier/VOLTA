@@ -1,4 +1,4 @@
-# VOLTA - VCO ADC Modeling and Optimization Toolbox
+# VOLTA - VCO ADC Optimization Library and Toolbox for nonlinear Analysis
 A distortion-centric framework for VCO-ADC design that incorporates the unconventional tradeoffs seen in ADC-direct architectures. The validated model gives realistic distortion-limited results, within 10\% of published silicon measurements, early in the system design process, without circuit design iterations or iterative differential equation solvers. The toolbox also includes a genetic algorithm-based heuristic optimizer with associated setup, utility, and visualization functions. The optimizer efficiently runs large populations, with multiple non-linear constraints, to maximize the Schreier Figure-of-Merit without manual knob tuning, while providing useful insight into design tradeoffs. 
 
 ## Introduction

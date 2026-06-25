@@ -68,5 +68,5 @@ If you used this code and find it helpful to your research, please consider citi
 ```
 
 ```
-Nitundil S, Burns R, Mercier P P. Fully Analytical Modeling and Heuristic Optimization of VCO-ADCs with Volterra Series based Noise Folding Quantification. 
+Nitundil S, Burns R, Mercier P. Fully Analytical Modeling and Heuristic Optimization of VCO-ADCs with Volterra Series based Noise Folding Quantification. 
 ```
